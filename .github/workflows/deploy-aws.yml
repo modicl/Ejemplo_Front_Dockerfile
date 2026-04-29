@@ -3,7 +3,7 @@ name: Construye y Despliega imagen
 on:
   push:
     branches:
-      - master
+      - main
 
 jobs:
   build-and-push:
@@ -25,7 +25,7 @@ jobs:
           context: .
           push: true
           tags: ${{ secrets.DOCKERHUB_USERNAME }}/front:latest
-      
+
       - name: Desplegar imagen a AWS
         uses: appleboy/ssh-action@v1.0.3
         with:
