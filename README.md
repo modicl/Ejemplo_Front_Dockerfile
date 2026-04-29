@@ -1,5 +1,7 @@
 # Fecha y Hora Actual - React App
 
+> **Ejercicio académico:** Este proyecto fue desarrollado como práctica para aprender sobre flujos de integración y entrega continua (CI/CD), incluyendo la automatización de builds, pruebas y despliegues mediante pipelines.
+
 Una aplicación simple en React que muestra la fecha y hora actual con un hermoso fondo azul degradado.
 
 ## Características
